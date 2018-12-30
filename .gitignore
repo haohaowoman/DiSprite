@@ -1,0 +1,5 @@
+Debug/
+Release/
+*.pdb
+
+/DiSprite/.vs/DiSprite/v15
