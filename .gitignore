@@ -3,3 +3,5 @@ Release/
 *.pdb
 
 /DiSprite/.vs/DiSprite/v15
+/.vs
+/DiSprite/.vs/DiSprite/v16
