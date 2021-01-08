@@ -1,0 +1,59 @@
+
+#pragma once
+
+#include "ViewTree.h"
+
+class CFileViewToolBar : public CMFCToolBar
+{
+	virtual void OnUpdateCmdUI(CFrameWnd* /*pTarget*/, BOOL bDisableIfNoHndler)
+	{
+		CMFCToolBar::OnUpdateCmdUI((CFrameWnd*) GetOwner(), bDisableIfNoHndler);
+	}
+
+	virtual BOOL AllowShowOnList() const { return FALSE; }
+};
+
+class CFileView : public CDockablePane
+{
+// 构造
+public:
+	CFileView();
+
+	void AdjustLayout();
+	void OnChangeVisualStyle();
+
+	void RefreshProjectFiles();
+// 特性
+protected:
+
+	CViewTree m_wndFileView;
+	CImageList m_FileViewImages;
+	CFileViewToolBar m_wndToolBar;
+
+	HTREEITEM m_selImagePageItem;
+	HTREEITEM m_selControlItem;
+
+    void FillFileView();
+
+// 实现
+public:
+	virtual ~CFileView();
+
+protected:
+	afx_msg int OnCreate(LPCREATESTRUCT lpCreateStruct);
+	afx_msg void OnSize(UINT nType, int cx, int cy);
+	afx_msg void OnContextMenu(CWnd* pWnd, CPoint point);
+	afx_msg void OnProperties();
+	afx_msg void OnNewImagePage();
+	afx_msg void OnNewDiControl();
+	afx_msg void OnDummyCompile();
+	afx_msg void OnEditCut();
+	afx_msg void OnEditCopy();
+	afx_msg void OnEditClear();
+	afx_msg void OnPaint();
+	afx_msg void OnSetFocus(CWnd* pOldWnd);
+
+	DECLARE_MESSAGE_MAP()
+	virtual BOOL OnNotify(WPARAM wParam, LPARAM lParam, LRESULT* pResult);
+};
+

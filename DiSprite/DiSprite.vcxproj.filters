@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="DiControl">
+      <UniqueIdentifier>{fde1319d-5f44-470e-8ed2-3e7a25310103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="DiSprite.reg" />
+    <None Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="UserImages.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DiSprite.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DiSpriteDoc.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DiSprite.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\toolbar1.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\DiControlToolBar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\AlignToolBar.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DiSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiSpriteDoc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiSpriteView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FileView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiControlData.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Visaul.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiImagePage.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiButton.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="IVariable.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="IKeyBordSupport.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="IData.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="IFont.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiDataInput.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiProject.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiControl.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiControlFactory.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiPropertyCtrl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiAssist.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiControlVisual.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiTextInput.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="IText.h">
+      <Filter>DiControl</Filter>
+    </ClInclude>
+    <ClInclude Include="DiQRCode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DiTextDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NewProjectSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinMagicLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSettingDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DiSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiSpriteDoc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiSpriteView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FileView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiControlData.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Visaul.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiImagePage.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiButton.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiDataInput.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiProject.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiControl.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiContorlFactory.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiPropertyCtrl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiControlVisual.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiTextInput.cpp">
+      <Filter>DiControl</Filter>
+    </ClCompile>
+    <ClCompile Include="DiQRCode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DiTextDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NewProjectSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSettingDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DiSprite.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
